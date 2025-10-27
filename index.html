@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyek Web Sederhana - Andi</title>
+    <link rel="stylesheet" href="mod 4.css">
+    <script src="mod 4.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Website Sederhana Anzztod</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#artikel">Artikel</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Selamat Datang di Website Saya</h2>
+            <p>Website ini dibuat sebagai bagian dari praktikum integrasi HTML, CSS, dan JavaScript.</p>
+            <button onclick="scrollToSection('artikel')">Lihat Artikel</button>
+        </div>
+    </section>
+
+    <main>
+        <section id="artikel">
+            <h2>Artikel</h2>
+            <div class="artikel-container">
+                <div class="card">
+                    <h3>Belajar HTML WOY!!</h3>
+                    <p>digunakan untuk membuat struktur dan isi halaman web, seperti teks, gambar, dan tautan.</p>
+                </div>
+                <div class="card">
+                    <h3>Belajar CSS Dong Bray!!</h3>
+                    <p>digunakan untuk mengatur tampilan halaman web agar lebih menarik, seperti warna, font, dan tata letak.</p>
+                </div>
+                <div class="card">
+                    <h3>Belajar JavaScript, ENAK TAUUU!!</h3>
+                    <p>digunakan untuk menambahkan interaktivitas pada halaman web, seperti animasi, validasi form, dan respon terhadap tindakan pengguna.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak">
+            <h2>Hubungi Saya</h2>
+            <form id="contactForm">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" placeholder="Masukkan nama Anda">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Masukkan email Anda">
+
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" placeholder="Tulis pesan Anda..."></textarea>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Website Anzztod </p>
+    </footer>
+</body>
+
+</html>
